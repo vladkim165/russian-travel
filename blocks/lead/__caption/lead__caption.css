@@ -1,0 +1,27 @@
+.lead__caption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 8px 0 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .lead__caption {
+        margin: 8px 0 0 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__caption {
+        margin: 8px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__caption {
+        margin: 8px 0 0 0;
+  }
+}

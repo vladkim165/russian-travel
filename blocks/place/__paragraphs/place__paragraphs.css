@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+    .place__paragraphs {
+        grid-area: text;
+    }
+}
