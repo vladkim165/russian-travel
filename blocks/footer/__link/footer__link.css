@@ -3,6 +3,7 @@
   line-height: 1;
   color: #FFFFFF;
   text-decoration-line: none;
+  transition: opacity 0.5s ease;
 }
 
 .footer__link:hover {

@@ -1,52 +1,24 @@
 .cover {
-  width: 100%;
-  min-height: 62.5vw;
-  max-height: 740px;
-  background-image: url(../../images/cover-background.jpg);
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 66px 0 0 0;
-  padding: 0;
-  position: relative;
-  color: #FFFFFF;
-  text-decoration-line: none;
-
-}
-
-.cover::before {
-  background: #2A2C2F;
-  opacity: 0.3;
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: opacity 500ms ease;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
+  margin: 0;
+  padding: 66px 0 0 0;
 }
 
 @media screen and (min-width: 768px) {
     .cover {
-        margin: 90px 0 0 0;
+        padding: 90px 0 0 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover {
-        margin: 92px 0 0 0;
+        padding: 92px 0 0 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
-        width: calc(100% - 96px);
-        margin: 92px 48px 0 48px;
+        padding: 92px 48px 0 48px;
+        margin: 0 auto;
+        max-width: 1184px;
     }
 }

@@ -24,5 +24,7 @@
     .places {
         padding: 92px 148px 0 148px;
         gap: 80px;
+        max-width: 984px;
+        margin: 0 auto;
     }
 }
