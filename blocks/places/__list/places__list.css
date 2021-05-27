@@ -1,0 +1,31 @@
+.places__list {
+  margin: 0;
+  padding: 64px 0 0 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-rows: repeat(minmax(min-content, max-content));
+  gap: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__list {
+      padding: 88px 24px 0 24px;
+      gap: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__list {
+      padding: 92px 48px 0 48px;
+      gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places__list {
+      padding: 92px 148px 0 148px;
+      gap: 80px;
+      max-width: 984px;
+      margin: 0 auto;
+  }
+}

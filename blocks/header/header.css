@@ -21,3 +21,11 @@
         width: calc(100% - 96px);
   }
 }
+
+@media screen and (min-width: 1280px) {
+    .header {
+        padding: 28px 0 0 0;
+        max-width: 1184px;
+        margin: 0 auto;
+    }
+}

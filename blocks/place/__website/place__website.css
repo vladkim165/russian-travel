@@ -7,14 +7,10 @@
 
 @media screen and (min-width: 768px) {
     .place__website {
-        margin: 46px 0 0 0;
+        margin: 0;
         grid-area: url;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 }
-
-@media screen and (min-width: 1024px) {
-    .place__website {
-        margin: 106px 0 0 0;
-    }
-}
-

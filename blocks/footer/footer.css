@@ -20,3 +20,11 @@
       padding: 92px 48px 24px 48px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+    .footer {
+      max-width: 1184px;
+      margin: 0 auto;
+      padding: 92px 0 24px 0;
+    }
+}
