@@ -2,3 +2,7 @@
   object-fit: cover;
   width: 100%;
 }
+
+.photo-grid__item:hover{
+  cursor: pointer;
+}

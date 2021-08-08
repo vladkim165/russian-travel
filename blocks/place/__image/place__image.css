@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.place__image:hover{
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
     .place__image {
         grid-area: image;
