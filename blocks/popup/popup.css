@@ -13,4 +13,5 @@
   -webkit-box-align:center;
   -webkit-box-pack:center;
   display:-webkit-box;
+  transition: 1s ease;
 }

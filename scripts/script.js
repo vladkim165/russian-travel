@@ -1,4 +1,3 @@
-const gridPictures = document.querySelectorAll('.photo-grid__item')
 const popup = document.querySelector('.popup')
 const closeButton = popup.querySelector('.popup__close-button')
 const backgroundImage = popup.querySelector('.popup__background-image')
@@ -11,6 +10,7 @@ function openPopup(event) {
   popup.classList.add('popup_opened');
   document.addEventListener('keydown', closePopupByClickOnEsc);
 };
+
 
 const closePopupByClickOnEsc = (evt) => {
   if (evt.key === "Escape") {
@@ -30,11 +30,6 @@ function closePopup() {
 }
 
 closeButton.addEventListener('click', closePopup)
-
-
-gridPictures.forEach((picture) => {
-  picture.addEventListener('click', openPopup)
-})
 
 placeImages.forEach((picture) => {
   picture.addEventListener('click', openPopup)

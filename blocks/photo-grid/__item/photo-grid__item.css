@@ -1,8 +1,9 @@
 .photo-grid__item{
   object-fit: cover;
   width: 100%;
+  transition: 1s;
 }
 
 .photo-grid__item:hover{
-  cursor: pointer;
+  opacity: 0.7;
 }
